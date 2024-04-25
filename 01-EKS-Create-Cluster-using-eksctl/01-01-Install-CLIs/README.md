@@ -9,7 +9,7 @@
 - Reference-1: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
 - Reference-2: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
 ### Step-01-01: MAC - Install and configure AWS CLI
-- Download the binary and install via command line using below two commands. 
+- Download the binary and install via the command line using below two commands. 
 ```
 # Download Binary
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
@@ -31,6 +31,8 @@ which aws
 - The AWS CLI version 2 supports only 64-bit versions of Windows.
 - Download Binary: https://awscli.amazonaws.com/AWSCLIV2.msi
 - Install the downloaded binary (standard windows install)
+- # installed via powershell, windows + x and have to relaunch the command line to get the aws version
+- # use aws --debug, commmand to list all the steps it went through to execute the command which helps in debugging
 ```
 aws --version
 aws-cli/2.0.8 Python/3.7.5 Windows/10 botocore/2.0.0dev12
